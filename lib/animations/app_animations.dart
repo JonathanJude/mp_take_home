@@ -74,13 +74,11 @@ extension AppAnimations on Widget {
 
   Animate get slideAnim {
     return animate().slideX(
-                                  duration: const Duration(milliseconds: 1100),
-                                );
+      duration: const Duration(milliseconds: 1100),
+    );
   }
 
   Animate get fadeScale {
-    return animate()
-                    .fade(duration: const Duration(milliseconds: 1200))
-                    .scale();
+    return animate().fade(duration: const Duration(milliseconds: 1200)).scale();
   }
 }

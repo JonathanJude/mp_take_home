@@ -40,7 +40,7 @@ class HomeTopHeader extends StatelessWidget {
           ),
         ).saintPtburg,
         const CircleAvatar(
-          backgroundImage: AssetImage("assets/images/avatar.jpg"),
+          backgroundImage: AssetImage("assets/images/avatar.png"),
         ).avatar,
       ],
     );
