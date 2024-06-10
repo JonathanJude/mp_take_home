@@ -38,9 +38,9 @@ class MapMarket extends StatelessWidget {
             bottomRight: Radius.circular(16),
           ),
         ),
-        child: const Text(
-          "11 km",
-          style: TextStyle(
+        child: Text(
+          text,
+          style: const TextStyle(
             color: Colors.white,
             fontSize: 15,
             fontFamily: kFontFamily,

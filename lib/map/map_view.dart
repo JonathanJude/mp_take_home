@@ -46,8 +46,7 @@ class AppMapView extends StatelessWidget {
                               borderSide: BorderSide.none,
                             ),
                           ),
-                        )
-                            .fadeScale,
+                        ).fadeScale,
                       ),
                       const SizedBox(width: 10),
                       Container(
@@ -57,8 +56,7 @@ class AppMapView extends StatelessWidget {
                           shape: BoxShape.circle,
                         ),
                         child: Icon(MdiIcons.filterVariant),
-                      )
-                          .fadeScale,
+                      ).fadeScale,
                     ],
                   ),
                 ),
@@ -67,31 +65,35 @@ class AppMapView extends StatelessWidget {
           ),
         ),
         const MapMarket(
-                top: 150,
-                left: 30,
-                text: "25mn",
-              ),
-              const MapMarket(
-                top: 350,
-                left: 60,
-                text: "13mn",
-              ),
-              const MapMarket(
-                top: 180,
-                left: 150,
-                text: "50mn",
-              ),
-              const MapMarket(
-                top: 300,
-                left: 220,
-                text: "15mn",
-              ),
-              const MapMarket(
-                top: 500,
-                left: 200,
-                text: "20mn",
-              ),
-              
+          top: 220,
+          left: 30,
+          text: "10.3 mn P",
+        ),
+        const MapMarket(
+          top: 350,
+          left: 60,
+          text: "11 mn p",
+        ),
+        const MapMarket(
+          top: 180,
+          left: 150,
+          text: "7.8 mn P",
+        ),
+        const MapMarket(
+          top: 300,
+          left: 220,
+          text: "13.3 mn P",
+        ),
+        const MapMarket(
+          top: 500,
+          left: 200,
+          text: "6.95 mn P",
+        ),
+        const MapMarket(
+          top: 500,
+          left: 200,
+          text: "8.5 mn P",
+        ),
         Positioned(
           bottom: 140,
           left: 32,
@@ -102,17 +104,14 @@ class AppMapView extends StatelessWidget {
             children: [
               Column(
                 children: [
-                  _locationOption(MdiIcons.layersTriple)
-                      .fadeScale,
+                  _locationOption(MdiIcons.layersTriple).fadeScale,
                   const SizedBox(height: 10),
-                  _locationOption(MdiIcons.navigationVariant)
-                      .fadeScale,
+                  _locationOption(MdiIcons.navigationVariant).fadeScale,
                 ],
               ),
               Padding(
                 padding: const EdgeInsets.only(right: 28.0),
-                child: _listofVariantsButton()
-                    .fadeScale,
+                child: _listofVariantsButton().fadeScale,
               ),
             ],
           ),
